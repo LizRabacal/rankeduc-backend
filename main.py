@@ -30,6 +30,7 @@ app = FastAPI(
 # --- 🎯 Configuração do CORS ---
 origins = [
     "http://localhost:3000",
+    "https://rankeduc-frontend-drmm.vercel.app",
 ]
 
 app.add_middleware(
