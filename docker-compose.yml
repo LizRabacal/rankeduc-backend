@@ -1,0 +1,9 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - /home/liz/Downloads/credenciais.json:/usr/src/app/credenciais.json
+    environment:
+      GOOGLE_APPLICATION_CREDENTIALS: /usr/src/app/credenciais.json

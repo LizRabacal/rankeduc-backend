@@ -1,0 +1,8 @@
+# Pastas de ambiente virtual
+/venv
+/env
+/lib
+/lib64
+/include
+/bin
+# ... (o restante do seu .gitignore)
