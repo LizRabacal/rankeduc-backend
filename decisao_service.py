@@ -134,7 +134,7 @@ class DecisaoService:
                     tipo_organizacao_administrativa
                 FROM `basedosdados.br_inep_censo_educacao_superior.curso`
                 WHERE ano = {ANO_REF} AND quantidade_matriculas > 0
-                LIMIT 100000 
+                LIMIT 5000 
             """
             logging.info("Consultando AMOSRA para treinamento na Base dos Dados...")
             
