@@ -5,4 +5,5 @@
 /lib64
 /include
 /bin
+env
 # ... (o restante do seu .gitignore)
